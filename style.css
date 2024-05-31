@@ -238,13 +238,14 @@ footer .img img
   }
 
   .fa-star{
-    animation: staranimate infinite ease-in 1s  linear ;
+    animation: staranimate infinite 2s linear ;
+    font-size: 15px;
   }
   @keyframes staranimate {
-    0%{
-        font-size: 10px;
+    from {
+        opacity: 0.1;
     }
-    100%{
-        font-size: 20px;
+    to {
+        opacity: 1;
     }
   }
