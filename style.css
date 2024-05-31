@@ -26,7 +26,7 @@ header ul li
 }
 nav .navbar-nav li a
 {
-    color: white !important;
+    color: #fff !important;
 }
 .fa-solid, .fas 
 {
@@ -175,3 +175,76 @@ footer .img img
 {
     padding: 15px;
 }
+
+/* assignment section */
+  /* LIMIT HEIGHT */
+  .limit-btn {
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    display: none;
+    text-align: start;
+  }
+
+  /* LIMIT LINES */
+  .limit-lines {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: var(--mobile);
+    -webkit-box-orient: vertical;
+    line-height: 1.5;
+    transition: -webkit-line-clamp 0.5s ease-in-out;
+  }
+
+  .limit-lines.expanded {
+    -webkit-line-clamp: unset;
+  }
+
+  @media (min-width: 768px) {
+    .limit-lines {
+      -webkit-line-clamp: var(--pc);
+    }
+  }
+
+  /* subject section */
+  .service-box {
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+  }
+
+  .essay-box {
+    background-color: #dc3545;
+    color: #fff;
+  }
+
+  .dissertation-box {
+    background-color: #343a40;
+    color: #fff;
+  }
+
+  img.icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .fa-star{
+    animation: staranimate infinite ease-in 1s  linear ;
+  }
+  @keyframes staranimate {
+    0%{
+        font-size: 10px;
+    }
+    100%{
+        font-size: 20px;
+    }
+  }
