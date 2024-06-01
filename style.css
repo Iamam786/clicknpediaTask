@@ -344,4 +344,93 @@ img.icon {
      {
     flex-direction: column;
 }
+
+#assignment h2 
+{
+    font-size: 35px !important;
+}
+table + .row
+{
+    flex-direction: column;
+}
+#destination .row .col-4
+{
+    width: 100%;
+}
+#destination .card-content
+{
+    display: block;
+}
+#destination .back-img .card {
+    top: 10px !important;
+    color: #fff;
+    /* animation: animate 1s linear 1s; */
+}
+#card-section
+{
+    padding: 0 !important;
+}
+#card-section .card
+{
+    flex-direction: column !important;
+    padding: 26px;
+}
+#card-section .col h2
+{
+    font-size: 21px !important;
+}
+#card-section .col-2 
+{
+    width: auto;
+}
+#card-section a 
+{
+    padding: 8px 15px;
+}
+
+#assignment-industry h2 
+{
+    font-size: 33px !important;
+}
+#assignment-industry .row
+{
+    flex-direction: column !important;
+}
+#assignment-industry .row .col-3
+{
+    width: auto;
+}
+#faq h2 
+{
+    font-size: 40px;
+}
+.faq-question
+{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.faq-question h2 button
+{
+    font-size: 20px;
+    box-shadow: 5px 5px #0a49607a;
+}
+footer .row
+{
+    flex-direction: column;
+}
+footer .row .col .icon
+{
+    text-align: center;
+    padding-top: 30px;
+}
+footer .row .col:nth-child(2)
+{
+    padding: 20px 0;
+}
+.copyright{
+    display: grid;
+}
+.copyright div:nth-child(2){
+    text-align: right;
+}
 }
