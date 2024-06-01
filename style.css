@@ -146,6 +146,16 @@ nav .navbar-nav li a {
 #card-section .card {
     background: #494a68;
 }
+ /* assistent */
+  #assistent,
+  #assistent .container,
+  #assistent .container .container-fluid,
+  #assistent .container .container-fluid .row,
+  #assistent .container .container-fluid .row .col
+  {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
 
 
 /* assignment #assignment-industry */
@@ -344,7 +354,13 @@ img.icon {
      {
     flex-direction: column;
 }
-
+#subjects h2{
+    font-size: 36px !important;
+}
+#subjects .row div 
+{
+    flex-direction: column;
+}
 #assignment h2 
 {
     font-size: 35px !important;
@@ -417,20 +433,22 @@ table + .row
 footer .row
 {
     flex-direction: column;
+    gap: 25px;
 }
 footer .row .col .icon
 {
     text-align: center;
     padding-top: 30px;
 }
-footer .row .col:nth-child(2)
-{
-    padding: 20px 0;
-}
+
 .copyright{
     display: grid;
+    padding: 0 !important;
 }
 .copyright div:nth-child(2){
     text-align: right;
+}
+#myDiv{
+  right: 10px;
 }
 }
