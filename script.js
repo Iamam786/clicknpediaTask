@@ -17,3 +17,20 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
   });
+
+  //for whatsApp
+
+  $(function () {
+    $('#myDiv').floatingWhatsApp({
+      phone: '9602044257',
+      popupMessage: 'Hi there',
+      showPopup: true,
+      position: "right"
+    });
+  });
+
+// for header toggle
+
+$('li').click(()=>{
+  $('.navbar-collapse').collapse('hide')
+})

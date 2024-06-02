@@ -8,6 +8,10 @@
 {
     background-color: #484a67;
 } */
+#home
+{
+    z-index: 1000000;
+}
 #home,
 #services {
     background-color: #484a67;
@@ -265,6 +269,7 @@ img.icon {
     #home {
         width: 100vw;
         right: auto;
+       
     }
 
     section,
@@ -457,4 +462,18 @@ footer .row .col .icon
 #myDiv{
   right: 10px;
 }
+
 }
+
+/* header.active ul {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    padding-top: 20px;
+}
+
+header.active ul li a {
+    display: none;
+    margin: 10px 0;
+    font-size: 20px;
+} */
