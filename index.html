@@ -9,17 +9,18 @@
   <!-- bootstrap css cdn  -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
- 
-    <!-- font-awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+
+  <!-- font-awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
-    <!-- jQuery cdn  -->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
-    <!-- css file local  -->
-    <link rel="stylesheet" href="style.css">
+  <!-- jQuery cdn  -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <!-- css file local  -->
+  <link rel="stylesheet" href="style.css">
 
   <!-- whatasapp -->
   <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
@@ -112,6 +113,49 @@
       </div>
     </div>
   </div>
+
+  <!-- for alert -->
+  <!-- Flexbox container for aligning the toasts -->
+  <div aria-live="polite" aria-atomic="true" class="d-flex justify-content-center align-items-center w-100">
+
+    <!-- Then put toasts within -->
+    <div class="toast p-5 card h-auto card flex-row w-auto flex-row bg-body position-fixed fade" data-bs-autohide="false"
+      data-bs-delay="10000" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-header position-relative">
+        <img src="https://www.bestassignmenthelp.io/assets/images/popup-offer-assignment-help.webp" class="rounded me-2"
+          alt="...">
+      </div>
+      <div class="toast-body">
+        <h2 class="alert-heading fw-normal fs-1"><span class="text-danger fw-bold">50% Off</span> On Your First Order</h2>
+        <form>
+          <div class="mb-3">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="email">
+          </div>
+          <div class="mb-3">
+            <div class="enter-phone-number">
+              <span class=" position-absolute" id="icon" style="background: #ebebeb;"><i
+                  class="fa-regular fa-flag"></i><i class="fa-solid fa-caret-down"></i></span>
+              <input type="tel" class="form-control" id="exampleInputTel" placeholder="Phone"
+                style="padding-left: 84px;">
+            </div>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">I agree to the terms and conditions.</label>
+          </div>
+          <div class="g-recaptcha" data-sitekey="6Ldbdg0TAAAAAI7KAf72Q6uagbWzWecTeBWmrCpJ"></div>
+         
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="btn position-absolute" style="top: 5%;right: 0;">
+        <button type="button" class=" py-2 bg-danger rounded-pill" data-bs-dismiss="toast" aria-label="Close"><i
+            class="fa-solid fa-xmark px-1" style="color: #fff;padding-left: 0;"></i></button>
+      </div>
+    </div>
+  </div>
+
   <!-- reference section  -->
   <section id="reference" class="container-fluid">
     <h2 class="text-center py-4">What Referencing Style Is Used In <span class="text-danger d-grid">Australia?</span>
@@ -134,7 +178,11 @@
             <div class="card  mb-3">
               <div class="card-body">
                 <h3 class="card-title text-black">IEEE</h3>
-                <p class="card-text text-black">The IEEE style developed by the Institute of Electrical and Electronics Engineers is predominantly employed in engineering and technology fields. It provides specific instructions for referencing sources in technical papers and reports. The writing style places emphasis on the use of numerical citations enclosed in brackets along with a corresponding numbered reference list. This approach aims to enhance clarity and precision in technical writing.
+                <p class="card-text text-black">The IEEE style developed by the Institute of Electrical and Electronics
+                  Engineers is predominantly employed in engineering and technology fields. It provides specific
+                  instructions for referencing sources in technical papers and reports. The writing style places
+                  emphasis on the use of numerical citations enclosed in brackets along with a corresponding numbered
+                  reference list. This approach aims to enhance clarity and precision in technical writing.
 
                 </p>
               </div>
@@ -142,14 +190,17 @@
             <div class="card  mb-3">
               <div class="card-body">
                 <h3 class="card-title text-black">MLA</h3>
-                <p class="card-text text-black">The Modern Language Association style is mostly employed in humanities subjects to offer instructions on paper formatting and source citation. The emphasis is on using brief in-text citations and a works cited page to facilitate unambiguous communication of scholarly ideas and sources.
+                <p class="card-text text-black">The Modern Language Association style is mostly employed in humanities
+                  subjects to offer instructions on paper formatting and source citation. The emphasis is on using brief
+                  in-text citations and a works cited page to facilitate unambiguous communication of scholarly ideas
+                  and sources.
 
                 </p>
               </div>
             </div>
           </div>
         </div>
-      
+
         <div class="carousel-item">
           <div class="card-content">
             <div class="card  mb-3">
@@ -192,6 +243,7 @@
 
     </div>
 
+  
   </section>
 
   <!-- Subjects section  -->
@@ -1196,14 +1248,21 @@
     </div>
   </footer>
 
-
-
+  <!-- for whatasapp -->
   <div id="myDiv" style="z-index: 1000000;"></div>
+
+
+
+
+
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+    
+    <!-- //for robot cepcha -->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
   <script src="script.js"></script>
 </body>
 

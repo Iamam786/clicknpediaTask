@@ -465,15 +465,24 @@ footer .row .col .icon
 
 }
 
-/* header.active ul {
-    visibility: visible;
-    opacity: 1;
-    display: block;
-    padding-top: 20px;
+.toast{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 100000000;
 }
-
-header.active ul li a {
-    display: none;
-    margin: 10px 0;
-    font-size: 20px;
-} */
+.toast-header img
+{
+    width: 250px;
+    height: 250px;
+}
+.toast-header button
+{
+    right: -333px;
+    top: -29px;
+}
+.toast-body #icon i
+{
+    padding: 12px 15px;
+    opacity: 1;
+}
