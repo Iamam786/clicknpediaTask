@@ -1,3 +1,5 @@
+
+// text limit for collapse
 document.addEventListener('DOMContentLoaded', function () {
   const IS_MOBILE = window.matchMedia('(max-width: 767px)').matches;
 
